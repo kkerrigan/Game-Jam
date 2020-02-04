@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{fae31fea-4f52-42cd-b8b9-8664035be41b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="loadShaders.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="updateCallback.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboardCallback.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboardCallbackASYNC.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="loadModels.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="loadLights.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ballDebugRendering.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="loadScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="mouseCallback.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="loadTextures.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="loadTerrainAABBHierarchy.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="load_cutscene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="showModelNormals.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="window_size_callback.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="app_optomizations.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

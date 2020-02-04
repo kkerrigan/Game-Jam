@@ -1,0 +1,3 @@
+
+0 = cEntity - just the empty base class
+1 = cPlayer - the player class - transform, euler movment

@@ -1,0 +1,6 @@
+{
+  "title": "Before the Village",
+  "width": 1920,
+  "height": 1080,
+  "physics_implementation": "bullet_physics.dll"
+}

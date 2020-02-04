@@ -1,0 +1,734 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Global">
+      <UniqueIdentifier>{7076a566-6909-4e92-9c30-7ed6c4736ea7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Settings Structs">
+      <UniqueIdentifier>{fe7fc9d9-3b24-46d6-b613-f7b53b6ff331}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Glad">
+      <UniqueIdentifier>{24e351a4-43ab-4953-b317-710fa33c4630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utitlities">
+      <UniqueIdentifier>{306073bd-4041-4996-8cc9-ebc5318576e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Manager">
+      <UniqueIdentifier>{c9997952-c1b0-49ff-810f-7ebec51457d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS">
+      <UniqueIdentifier>{f8336f12-0618-4f6f-a188-7e18a348c4af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Entity">
+      <UniqueIdentifier>{1a49d513-8180-4983-9c57-2f857ce2665e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Component">
+      <UniqueIdentifier>{9ce5fd1d-724b-4313-91ad-0fde161167a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\System">
+      <UniqueIdentifier>{31019b83-f544-4630-871e-871b13676855}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Component\EulerMovment">
+      <UniqueIdentifier>{e004b001-1ef5-40b1-9a1b-e897cbe54dd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Component\Transform">
+      <UniqueIdentifier>{2f6dff01-7f8d-46ef-9e47-abb640bfa1f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Component\Factory">
+      <UniqueIdentifier>{7d3c7cdf-320c-4cda-8c7c-f475d075f607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Component\Base Class">
+      <UniqueIdentifier>{8ebf95bc-4a19-4877-b2f9-69521bdccf7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Entity\Builder">
+      <UniqueIdentifier>{344258c1-faae-4381-8e4e-247523390808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Entity\Base Class">
+      <UniqueIdentifier>{7b5266f6-04f4-447d-a7a9-4a3137809967}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\System\Base Class">
+      <UniqueIdentifier>{a474c94e-cbe6-4ae7-b126-e78515b794f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VAO Mesh Manager">
+      <UniqueIdentifier>{f4faa4d5-ee3e-4dd2-b47e-9e58475ea695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Component\Mesh Rendering">
+      <UniqueIdentifier>{0f5b3aa0-0270-44f6-81aa-e580cef2b8a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\System\Mesh Render">
+      <UniqueIdentifier>{b604e680-14e5-4cb3-9a71-d7477f84915b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light Manager">
+      <UniqueIdentifier>{2835ead3-b077-4bf3-9b0d-124fbcc5974f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene Manager">
+      <UniqueIdentifier>{3cb38125-2db1-4a8f-9779-7f7a6f77cb7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug Renderer">
+      <UniqueIdentifier>{0e465e8a-62e9-43fe-991a-98980cac3153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Error">
+      <UniqueIdentifier>{319b26ba-e06d-464a-9d3e-6cdf50ada1aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Component\Debug Render Component">
+      <UniqueIdentifier>{e1337fba-a4fc-4ef4-afe3-42d50db0d147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\System\Debug Render">
+      <UniqueIdentifier>{6dfa32f4-c623-4372-bc9e-e5d35eb9de81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{60286203-2280-4358-a155-8e8109c47c01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Component\Collider">
+      <UniqueIdentifier>{495d6054-ae75-4b4e-ab05-fc5fd1c7f70a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\System\Collider">
+      <UniqueIdentifier>{be3198ae-9f05-4097-afa0-9739fe62e6f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serialization">
+      <UniqueIdentifier>{a282e873-c88e-4888-9dff-5e83eda02aca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{c5ed7e09-ec5b-4f30-b2a5-19f71409eb77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene Manager\Commands">
+      <UniqueIdentifier>{78a7954c-9318-4c78-b5b8-0d3266121e8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene Manager\Commands\Base">
+      <UniqueIdentifier>{08754d3e-495a-4a39-82fc-526a5a38c8e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound Manager">
+      <UniqueIdentifier>{f711cc80-1119-42ba-8421-58ff034842ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Component\3dSoundComponent">
+      <UniqueIdentifier>{181a6fc4-81a7-46d6-aa09-3d624a3247a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound Manager\Factory">
+      <UniqueIdentifier>{e6f4d889-f284-48bf-900e-7b7831bbfaa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture Manager">
+      <UniqueIdentifier>{07cb8c86-b541-44c8-a5d1-3d2f634d3253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{31d5e45c-6616-48fa-90cc-72c8916722fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\System\Euler Movement">
+      <UniqueIdentifier>{633a7dde-5605-473f-abc5-8eae369bcf22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripting">
+      <UniqueIdentifier>{158d12d0-8fd5-4060-a40e-8877b6a4bed0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripting\Command Group">
+      <UniqueIdentifier>{183080ee-5399-4b46-84fa-0333440d9fbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripting\Lua">
+      <UniqueIdentifier>{11a14019-6300-489a-88b0-80a3d94fa3ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripting\Command Group\Commands">
+      <UniqueIdentifier>{bb175625-b236-4017-8975-b6419aa0b2a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripting\Util">
+      <UniqueIdentifier>{6f8eecb0-d321-4473-8984-5b768f665166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Component\Particles">
+      <UniqueIdentifier>{c95fccc7-adde-4614-bab7-a2a671483cdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\System\Particles">
+      <UniqueIdentifier>{e7c9dae6-6721-4dac-83b4-d4c3e1dbdb27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>{aeb6f59d-0d91-4098-8203-870a39b2e119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Component\Physics">
+      <UniqueIdentifier>{0f6355f8-c478-4cb8-9e44-ccfa61979e09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeType">
+      <UniqueIdentifier>{3b1dd755-0d66-4e6f-8a8e-82c2789fcd28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBO">
+      <UniqueIdentifier>{b9958ee1-9d08-4066-9bb0-f6a4ee664cfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Component\FrameBufferComp">
+      <UniqueIdentifier>{9353f305-0114-40ec-bf4c-3043a16563be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maze Maker">
+      <UniqueIdentifier>{3922cdbb-cbda-4fc4-911c-b97263ca722d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread Manager">
+      <UniqueIdentifier>{015513f8-62f8-4f2a-a785-acdbaf5334b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assimp">
+      <UniqueIdentifier>{7c6a5fcb-eec3-482f-a5b6-fc20f8382735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Component\ThreadWorker">
+      <UniqueIdentifier>{d4c2afaf-0cd4-4834-bfc3-0fb747464a6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Component\InstancedMeshComponent">
+      <UniqueIdentifier>{9670a837-01d0-4b42-a6eb-fb2f9ccc915c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Path Finding">
+      <UniqueIdentifier>{538c06cf-d248-4792-91f6-e185babfbf95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\System\Behaviour System">
+      <UniqueIdentifier>{7a8cbd1f-ca39-4cbb-8d88-efaaf04e19c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BatchRenderSystem">
+      <UniqueIdentifier>{1bd3a9b3-188e-4cd9-9df6-28520076bfb6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>Glad</Filter>
+    </ClCompile>
+    <ClCompile Include="cConsole.cpp">
+      <Filter>Utitlities</Filter>
+    </ClCompile>
+    <ClCompile Include="cShaderManager.cpp">
+      <Filter>Shader Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cShader.cpp">
+      <Filter>Shader Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cComponentFactory.cpp">
+      <Filter>ECS\Component\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="cEntityBuilder.cpp">
+      <Filter>ECS\Entity\Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="cEntity.cpp">
+      <Filter>ECS\Entity\Base Class</Filter>
+    </ClCompile>
+    <ClCompile Include="cVAOMeshManager.cpp">
+      <Filter>VAO Mesh Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="sModelDrawInfo.cpp">
+      <Filter>VAO Mesh Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cMeshRenderSystem.cpp">
+      <Filter>ECS\System\Mesh Render</Filter>
+    </ClCompile>
+    <ClCompile Include="cLightManager.cpp">
+      <Filter>Light Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cSceneManager.cpp">
+      <Filter>Scene Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cDebugRenderer.cpp">
+      <Filter>Debug Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="cDebugRenderer_BuiltInShapes.cpp">
+      <Filter>Debug Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="CErrorLog.cpp">
+      <Filter>Error</Filter>
+    </ClCompile>
+    <ClCompile Include="COpenGLError.cpp">
+      <Filter>Error</Filter>
+    </ClCompile>
+    <ClCompile Include="cDebugRenderSystem.cpp">
+      <Filter>ECS\System\Debug Render</Filter>
+    </ClCompile>
+    <ClCompile Include="cCollider.cpp">
+      <Filter>ECS\Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="cColliderSystem.cpp">
+      <Filter>ECS\System\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="cPhysics.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="cDebugRenderComponent.cpp">
+      <Filter>ECS\Component\Debug Render Component</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene.cpp">
+      <Filter>Scene Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cLightHelper.cpp">
+      <Filter>Light Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cFlyCamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="cSoundManager.cpp">
+      <Filter>Sound Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cDSPFactory.cpp">
+      <Filter>Sound Manager\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="C24BitBMPpixel.cpp">
+      <Filter>Texture Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cBasicTextureManager.cpp">
+      <Filter>Texture Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextureFromBMP.cpp">
+      <Filter>Texture Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="physicsShapes.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="cEngine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="cTransformComponent.cpp">
+      <Filter>ECS\Component\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="cEulerMovementSystem.cpp">
+      <Filter>ECS\System\Euler Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="cCommandGroup.cpp">
+      <Filter>Scripting\Command Group</Filter>
+    </ClCompile>
+    <ClCompile Include="cLuaBrain.cpp">
+      <Filter>Scripting\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="cMoveToTime.cpp">
+      <Filter>Scripting\Command Group\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="cOrientToEntity.cpp">
+      <Filter>Scripting\Command Group\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="cScriptUtil.cpp">
+      <Filter>Scripting\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="cFollowEntity.cpp">
+      <Filter>Scripting\Command Group\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="cLuaFunctionMap.cpp">
+      <Filter>Scripting\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="cFadeEntityColorTrigger.cpp">
+      <Filter>Scripting\Command Group\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="cFollowCurve.cpp">
+      <Filter>Scripting\Command Group\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="cMoveToDistance.cpp">
+      <Filter>Scripting\Command Group\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="cCameraFollowEntity.cpp">
+      <Filter>Scripting\Command Group\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="cCameraMoveToTime.cpp">
+      <Filter>Scripting\Command Group\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="cCameraMoveToDistance.cpp">
+      <Filter>Scripting\Command Group\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="cOrientToEntityDistance.cpp">
+      <Filter>Scripting\Command Group\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticleComponent.cpp">
+      <Filter>ECS\Component\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticleSystem.cpp">
+      <Filter>ECS\System\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="cDllLoader.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="cPhysicsComponent.cpp">
+      <Filter>ECS\Component\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="cFreeTypeRenderer.cpp">
+      <Filter>FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="cSerializer.cpp">
+      <Filter>Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="cFBO.cpp">
+      <Filter>FBO</Filter>
+    </ClCompile>
+    <ClCompile Include="cFrameBufferComponent.cpp">
+      <Filter>ECS\Component\FrameBufferComp</Filter>
+    </ClCompile>
+    <ClCompile Include="cMazeMaker.cpp">
+      <Filter>Maze Maker</Filter>
+    </ClCompile>
+    <ClCompile Include="assimpConversion.cpp">
+      <Filter>Assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="cAnimationState.cpp">
+      <Filter>Assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="cAssimpBasic.cpp">
+      <Filter>Assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="cAssimpBasic_Imp.cpp">
+      <Filter>Assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="Ply\CHRTimer.cpp">
+      <Filter>Assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="cMesh.cpp">
+      <Filter>Assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="cObjectPool.cpp">
+      <Filter>Assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="Ply\CPlyFile5nt.cpp">
+      <Filter>Assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="Ply\CPlyFile5nt_experimental.cpp">
+      <Filter>Assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="Ply\CPlyFile5nt_planarUV.cpp">
+      <Filter>Assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="cScriptingCommandSystem.cpp">
+      <Filter>Assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="cSimpleAssimpSkinnedMeshLoader_OneMesh.cpp">
+      <Filter>Assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="cSkinnedMeshComponent.cpp">
+      <Filter>Assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="Ply\CStringHelper.cpp">
+      <Filter>Assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="Ply\CVector3f.cpp">
+      <Filter>Assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="cMazeHelpers.cpp">
+      <Filter>Maze Maker</Filter>
+    </ClCompile>
+    <ClCompile Include="cThreadWorkerComponent.cpp">
+      <Filter>ECS\Component\ThreadWorker</Filter>
+    </ClCompile>
+    <ClCompile Include="cInstancedMeshComponent.cpp">
+      <Filter>ECS\Component\InstancedMeshComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="cPathFinding.cpp">
+      <Filter>Path Finding</Filter>
+    </ClCompile>
+    <ClCompile Include="cBehaviourSystem.cpp">
+      <Filter>ECS\System\Behaviour System</Filter>
+    </ClCompile>
+    <ClCompile Include="cBehaviourComponent.cpp">
+      <Filter>ECS\System\Behaviour System</Filter>
+    </ClCompile>
+    <ClCompile Include="iBehaviour.cpp">
+      <Filter>ECS\System\Behaviour System</Filter>
+    </ClCompile>
+    <ClCompile Include="cFollowPathBehaviour.cpp">
+      <Filter>ECS\System\Behaviour System</Filter>
+    </ClCompile>
+    <ClCompile Include="cGathererBehaviour.cpp">
+      <Filter>ECS\System\Behaviour System</Filter>
+    </ClCompile>
+    <ClCompile Include="cWaitBehaviour.cpp">
+      <Filter>ECS\System\Behaviour System</Filter>
+    </ClCompile>
+    <ClCompile Include="cBatchRenderSystem.cpp">
+      <Filter>BatchRenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="cLoadBitmapMap.cpp">
+      <Filter>Texture Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cShadowFBO.cpp">
+      <Filter>FBO</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Global.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="sWindowSettings.h">
+      <Filter>Settings Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="cConsole.h">
+      <Filter>Utitlities</Filter>
+    </ClInclude>
+    <ClInclude Include="cShaderManager.h">
+      <Filter>Shader Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cTransformComponent.h">
+      <Filter>ECS\Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="cComponent.h">
+      <Filter>ECS\Component\Base Class</Filter>
+    </ClInclude>
+    <ClInclude Include="cComponentFactory.h">
+      <Filter>ECS\Component\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="cEntityBuilder.h">
+      <Filter>ECS\Entity\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="cEntity.h">
+      <Filter>ECS\Entity\Base Class</Filter>
+    </ClInclude>
+    <ClInclude Include="iSystem.h">
+      <Filter>ECS\System\Base Class</Filter>
+    </ClInclude>
+    <ClInclude Include="cVAOMeshManager.h">
+      <Filter>VAO Mesh Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="sModelDrawInfo.h">
+      <Filter>VAO Mesh Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="sPlyTriangle.h">
+      <Filter>VAO Mesh Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="sPlyVertex.h">
+      <Filter>VAO Mesh Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cRenderMeshComponent.h">
+      <Filter>ECS\Component\Mesh Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="cMeshRenderSystem.h">
+      <Filter>ECS\System\Mesh Render</Filter>
+    </ClInclude>
+    <ClInclude Include="cLightManager.h">
+      <Filter>Light Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="sLight.h">
+      <Filter>Light Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cSceneManager.h">
+      <Filter>Scene Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cDebugRenderer.h">
+      <Filter>Debug Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="iDebugRenderer.h">
+      <Filter>Debug Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="CErrorLog.h">
+      <Filter>Error</Filter>
+    </ClInclude>
+    <ClInclude Include="COpenGLError.h">
+      <Filter>Error</Filter>
+    </ClInclude>
+    <ClInclude Include="cDebugRenderComponent.h">
+      <Filter>ECS\Component\Debug Render Component</Filter>
+    </ClInclude>
+    <ClInclude Include="cDebugRenderSystem.h">
+      <Filter>ECS\System\Debug Render</Filter>
+    </ClInclude>
+    <ClInclude Include="cCollider.h">
+      <Filter>ECS\Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="physicsShapes.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="cColliderSystem.h">
+      <Filter>ECS\System\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="cPhysics.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene.h">
+      <Filter>Scene Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cLightHelper.h">
+      <Filter>Light Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cFlyCamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="cSoundManager.h">
+      <Filter>Sound Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="c3dSoundComponent.h">
+      <Filter>ECS\Component\3dSoundComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="cDSPFactory.h">
+      <Filter>Sound Manager\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="C24BitBMPpixel.h">
+      <Filter>Texture Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cBasicTextureManager.h">
+      <Filter>Texture Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextureFromBMP.h">
+      <Filter>Texture Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="sTextureInfo.h">
+      <Filter>Texture Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cEngine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="cEulerMovementComponent.h">
+      <Filter>ECS\Component\EulerMovment</Filter>
+    </ClInclude>
+    <ClInclude Include="cEulerMovementSystem.h">
+      <Filter>ECS\System\Euler Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="iInputCommand.h">
+      <Filter>Scene Manager\Commands\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="iCommand.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="cCommandGroup.h">
+      <Filter>Scripting\Command Group</Filter>
+    </ClInclude>
+    <ClInclude Include="cLuaBrain.h">
+      <Filter>Scripting\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="cMoveToTime.h">
+      <Filter>Scripting\Command Group\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="cOrientToEntity.h">
+      <Filter>Scripting\Command Group\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="cScriptUtil.h">
+      <Filter>Scripting\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="cFollowEntity.h">
+      <Filter>Scripting\Command Group\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="cFadeEntityColorTrigger.h">
+      <Filter>Scripting\Command Group\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="cFollowCurve.h">
+      <Filter>Scripting\Command Group\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="cMoveToDistance.h">
+      <Filter>Scripting\Command Group\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="cCameraFollowEntity.h">
+      <Filter>Scripting\Command Group\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="cCameraMoveToTime.h">
+      <Filter>Scripting\Command Group\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="cCameraMoveToDistance.h">
+      <Filter>Scripting\Command Group\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="cOrientToEntityDistance.h">
+      <Filter>Scripting\Command Group\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticleComponent.h">
+      <Filter>ECS\Component\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticleSystem.h">
+      <Filter>ECS\System\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="cDllLoader.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="cPhysicsComponent.h">
+      <Filter>ECS\Component\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="cFreeTypeRenderer.h">
+      <Filter>FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="cSerializer.h">
+      <Filter>Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="cFBO.h">
+      <Filter>FBO</Filter>
+    </ClInclude>
+    <ClInclude Include="cFrameBufferComponent.h">
+      <Filter>ECS\Component\FrameBufferComp</Filter>
+    </ClInclude>
+    <ClInclude Include="cMazeMaker.h">
+      <Filter>Maze Maker</Filter>
+    </ClInclude>
+    <ClInclude Include="cAnimationState.h">
+      <Filter>Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="cAssimpBasic.h">
+      <Filter>Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="cAssimpBasic_Imp.h">
+      <Filter>Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="cAttachedLightsComponent.h">
+      <Filter>Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="cAttachedLightSystem.h">
+      <Filter>Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Ply\CHRTimer.h">
+      <Filter>Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="cMesh.h">
+      <Filter>Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="cMeshTextureComponent.h">
+      <Filter>Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="cObjectPool.h">
+      <Filter>Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Ply\CPlyFile5nt.h">
+      <Filter>Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Ply\CPlyInfo.h">
+      <Filter>Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="cScriptingCommandSystem.h">
+      <Filter>Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="cSimpleAssimpSkinnedMeshLoader_OneMesh.h">
+      <Filter>Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="cSkinnedMeshComponent.h">
+      <Filter>Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Ply\CStringHelper.h">
+      <Filter>Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Ply\CVector3f.h">
+      <Filter>Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="sVertex_xyz_rgba_n_uv2_bt_4Bones.h">
+      <Filter>Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="cMazeHelpers.h">
+      <Filter>Maze Maker</Filter>
+    </ClInclude>
+    <ClInclude Include="cThreadWorkerComponent.h">
+      <Filter>ECS\Component\ThreadWorker</Filter>
+    </ClInclude>
+    <ClInclude Include="cInstancedMeshComponent.h">
+      <Filter>ECS\Component\InstancedMeshComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="cPathFinding.h">
+      <Filter>Path Finding</Filter>
+    </ClInclude>
+    <ClInclude Include="cBehaviourSystem.h">
+      <Filter>ECS\System\Behaviour System</Filter>
+    </ClInclude>
+    <ClInclude Include="cBehaviourComponent.h">
+      <Filter>ECS\System\Behaviour System</Filter>
+    </ClInclude>
+    <ClInclude Include="iBehaviour.h">
+      <Filter>ECS\System\Behaviour System</Filter>
+    </ClInclude>
+    <ClInclude Include="cFollowPathBehaviour.h">
+      <Filter>ECS\System\Behaviour System</Filter>
+    </ClInclude>
+    <ClInclude Include="cGathererBehaviour.h">
+      <Filter>ECS\System\Behaviour System</Filter>
+    </ClInclude>
+    <ClInclude Include="cWaitBehaviour.h">
+      <Filter>ECS\System\Behaviour System</Filter>
+    </ClInclude>
+    <ClInclude Include="cBatchRenderSystem.h">
+      <Filter>BatchRenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="cLoadBitmapMap.h">
+      <Filter>Texture Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cShadowFBO.h">
+      <Filter>FBO</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ComponentIds.txt">
+      <Filter>ECS\Component\Factory</Filter>
+    </Text>
+    <Text Include="EntityIdsList.txt">
+      <Filter>ECS\Entity\Builder</Filter>
+    </Text>
+    <Text Include="DSP IDs.txt">
+      <Filter>Sound Manager\Factory</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

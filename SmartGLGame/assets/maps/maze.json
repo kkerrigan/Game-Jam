@@ -1,0 +1,1178 @@
+{
+  "sceneName": "sandbox.json",
+  "selectedEntity": 0,
+  "selectedLight": 1,
+  "camera": {
+    "position": {
+      "x": 23.95,
+      "y": 175.07,
+      "z": 147.40
+    },
+    "orientation": {
+      "x": 0.0,
+      "y": -1.03,
+      "z": 0.08,
+      "w": 0.0
+    },
+    "up": {
+      "x": -0.276095688,
+      "y": 0.885058880,
+      "z": -0.397094160
+    }
+  },
+  "lights": [
+    {
+      "position": {
+        "x": 0.0,
+        "y": 10000.0,
+        "z": 0.0
+      },
+      "diffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "specular": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "attenuation": {
+        "constant": 0.0,
+        "linear": 0.001,
+        "quadratic": 0.0,
+        "cutoffDist": 0.0
+      },
+      "direction": {
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "param1": {
+        "lightType": 2.0,
+        "innerAngle": 0.0,
+        "outerAngle": 0.0,
+        "w": 0.0
+      },
+      "param2": {
+        "isOn": 1.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      }
+    },
+    {
+      "position": {
+        "x": 0.0,
+        "y": 128.0,
+        "z": 64.0
+      },
+      "diffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "specular": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "attenuation": {
+        "constant": 0.0,
+        "linear": 0.010000000474974514,
+        "quadratic": 1.0000000116860974e-7,
+        "cutoffDist": 0.0
+      },
+      "direction": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "param1": {
+        "lightType": 0.0,
+        "innerAngle": 0.0,
+        "outerAngle": 0.0,
+        "w": 0.0
+      },
+      "param2": {
+        "isOn": 1.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      }
+    }
+  ],
+  "entities": [
+    {
+      "id": 1,
+      "entityType": 1,
+      "componentBits": 5,
+      "components": [
+        {
+          "componentType": 1,
+          "position": {
+            "x": 296.42828369140627,
+            "y": 99.00341033935547,
+            "z": 1.7253611087799073
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "scale": {
+            "x": 1000.0,
+            "y": 1000.0,
+            "z": 1000.0
+          }
+        },
+        {
+          "componentType": 3,
+          "meshName": "Sphere_320_faces_xyz_n_GARBAGE_uv_INVERTED_NORMALS.ply",
+          "isWireframe": false,
+          "isVisible": false,
+          "color": {
+            "r": 1.0,
+            "g": 0.4117647111415863,
+            "b": 0.7058823704719544,
+            "a": 1.0
+          },
+          "textures": [],
+          "specular": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "shinyness": 1.0
+          },
+          "useVertexColor": false,
+          "dontLight": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "entityType": 0,
+      "componentBits": 7,
+      "components": [
+        {
+          "componentType": 8,
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "mass": 1.0,
+          "acceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "shape": {
+            "type": "plane",
+            "p1": {
+              "x": 10.0,
+              "y": 0.0,
+              "z": 10.0
+            },
+            "p2": {
+              "x": 100.0,
+              "y": 0.0,
+              "z": -10.0
+            },
+            "p3": {
+              "x": -100.0,
+              "y": 0.0,
+              "z": 10.0
+            }
+          }
+        },
+        {
+          "componentType": 3,
+          "meshName": "island.ply",
+          "isWireframe": false,
+          "isVisible": true,
+          "color": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 1.0
+          },
+          "bUseSplatMap": true,
+          "textures": [
+            {
+              "name": "island_splat.bmp",
+              "strength": 0.0
+            },
+            {
+              "name": "path.bmp",
+              "strength": 0.0
+            },
+            {
+              "name": "rocks.bmp",
+              "strength": 0.0
+            },
+            {
+              "name": "grass.bmp",
+              "strength": 0.0
+            }
+
+          ],
+          "specular": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "shinyness": 100.0
+          },
+          "useVertexColor": false,
+          "dontLight": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "entityType": 0,
+      "componentBits": 7,
+      "components": [
+        {
+          "componentType": 8,
+          "position": {
+            "x": 0.0,
+            "y": 50.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "mass": 1.0,
+          "acceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "velocity": {
+            "x": -0.0,
+            "y": 0.0,
+            "z": -0.0
+          },
+          "shape": {
+            "type": "sphere",
+            "radius": 1.0
+          }
+        },
+        {
+          "componentType": 3,
+          "meshName": "Sphere_320_faces_xyz_n_GARBAGE_uv.ply",
+          "isWireframe": false,
+          "isVisible": true,
+          "color": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 1.0
+          },
+          "textures": [
+            {
+              "name": "debug_grid.bmp",
+              "strength": 1.0
+            }
+          ],
+          "specular": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "shinyness": 100.0
+          },
+          "useVertexColor": false,
+          "dontLight": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "entityType": 0,
+      "componentBits": 7,
+      "components": [
+        {
+          "componentType": 8,
+          "position": {
+            "x": 20.0,
+            "y": 75.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "scale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "mass": 0.5,
+          "acceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "velocity": {
+            "x": -0.0,
+            "y": 0.0,
+            "z": -0.0
+          },
+          "shape": {
+            "type": "sphere",
+            "radius": 0.5
+          }
+        },
+        {
+          "componentType": 3,
+          "meshName": "Sphere_320_faces_xyz_n_GARBAGE_uv.ply",
+          "isWireframe": false,
+          "isVisible": true,
+          "color": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 1.0
+          },
+          "textures": [
+            {
+              "name": "debug_grid.bmp",
+              "strength": 1.0
+            }
+          ],
+          "specular": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "shinyness": 100.0
+          },
+          "useVertexColor": false,
+          "dontLight": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "entityType": 0,
+      "componentBits": 7,
+      "components": [
+        {
+          "componentType": 8,
+          "position": {
+            "x": 0.0,
+            "y": 50.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "mass": 1.0,
+          "acceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "velocity": {
+            "x": -0.0,
+            "y": 0.0,
+            "z": -0.0
+          },
+          "shape": {
+            "type": "sphere",
+            "radius": 1.0
+          }
+        },
+        {
+          "componentType": 3,
+          "meshName": "Sphere_320_faces_xyz_n_GARBAGE_uv.ply",
+          "isWireframe": false,
+          "isVisible": true,
+          "color": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 1.0
+          },
+          "textures": [
+            {
+              "name": "debug_grid.bmp",
+              "strength": 1.0
+            }
+          ],
+          "specular": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "shinyness": 100.0
+          },
+          "useVertexColor": false,
+          "dontLight": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "entityType": 0,
+      "componentBits": 7,
+      "components": [
+        {
+          "componentType": 8,
+          "position": {
+            "x": 0.0,
+            "y": 50.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "mass": 1.0,
+          "acceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "velocity": {
+            "x": -0.0,
+            "y": 0.0,
+            "z": -0.0
+          },
+          "shape": {
+            "type": "sphere",
+            "radius": 1.0
+          }
+        },
+        {
+          "componentType": 3,
+          "meshName": "Sphere_320_faces_xyz_n_GARBAGE_uv.ply",
+          "isWireframe": false,
+          "isVisible": true,
+          "color": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 1.0
+          },
+          "textures": [
+            {
+              "name": "debug_grid.bmp",
+              "strength": 1.0
+            }
+          ],
+          "specular": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "shinyness": 100.0
+          },
+          "useVertexColor": false,
+          "dontLight": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "entityType": 0,
+      "componentBits": 7,
+      "components": [
+        {
+          "componentType": 8,
+          "position": {
+            "x": -20.0,
+            "y": 50.0,
+            "z": -20.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "mass": 1.0,
+          "acceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "velocity": {
+            "x": -0.0,
+            "y": 0.0,
+            "z": -0.0
+          },
+          "shape": {
+            "type": "sphere",
+            "radius": 1.0
+          }
+        },
+        {
+          "componentType": 3,
+          "meshName": "Sphere_320_faces_xyz_n_GARBAGE_uv.ply",
+          "isWireframe": false,
+          "isVisible": true,
+          "color": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 1.0
+          },
+          "textures": [
+            {
+              "name": "debug_grid.bmp",
+              "strength": 1.0
+            }
+          ],
+          "specular": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "shinyness": 100.0
+          },
+          "useVertexColor": false,
+          "dontLight": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "entityType": 0,
+      "componentBits": 7,
+      "components": [
+        {
+          "componentType": 8,
+          "position": {
+            "x": -32.0,
+            "y": 50.0,
+            "z": 2.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "z": 0.25
+          },
+          "mass": 0.25,
+          "acceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "velocity": {
+            "x": -0.0,
+            "y": 0.0,
+            "z": -0.0
+          },
+          "shape": {
+            "type": "sphere",
+            "radius": 0.25
+          }
+        },
+        {
+          "componentType": 3,
+          "meshName": "Sphere_320_faces_xyz_n_GARBAGE_uv.ply",
+          "isWireframe": false,
+          "isVisible": true,
+          "color": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 1.0
+          },
+          "textures": [
+            {
+              "name": "debug_grid.bmp",
+              "strength": 1.0
+            }
+          ],
+          "specular": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "shinyness": 100.0
+          },
+          "useVertexColor": false,
+          "dontLight": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "entityType": 0,
+      "componentBits": 7,
+      "components": [
+        {
+          "componentType": 8,
+          "position": {
+            "x": -32.0,
+            "y": 50.0,
+            "z": 2.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "z": 0.25
+          },
+          "mass": 0.25,
+          "acceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "velocity": {
+            "x": -0.0,
+            "y": 0.0,
+            "z": -0.0
+          },
+          "shape": {
+            "type": "sphere",
+            "radius": 0.25
+          }
+        },
+        {
+          "componentType": 3,
+          "meshName": "Sphere_320_faces_xyz_n_GARBAGE_uv.ply",
+          "isWireframe": false,
+          "isVisible": true,
+          "color": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 1.0
+          },
+          "textures": [
+            {
+              "name": "debug_grid.bmp",
+              "strength": 1.0
+            }
+          ],
+          "specular": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "shinyness": 100.0
+          },
+          "useVertexColor": false,
+          "dontLight": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "entityType": 0,
+      "componentBits": 7,
+      "components": [
+        {
+          "componentType": 8,
+          "position": {
+            "x": -32.0,
+            "y": 50.0,
+            "z": 2.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "z": 0.25
+          },
+          "mass": 0.25,
+          "acceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "velocity": {
+            "x": -0.0,
+            "y": 0.0,
+            "z": -0.0
+          },
+          "shape": {
+            "type": "sphere",
+            "radius": 0.25
+          }
+        },
+        {
+          "componentType": 3,
+          "meshName": "Sphere_320_faces_xyz_n_GARBAGE_uv.ply",
+          "isWireframe": false,
+          "isVisible": true,
+          "color": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 1.0
+          },
+          "textures": [
+            {
+              "name": "debug_grid.bmp",
+              "strength": 1.0
+            }
+          ],
+          "specular": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "shinyness": 100.0
+          },
+          "useVertexColor": false,
+          "dontLight": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "entityType": 0,
+      "componentBits": 7,
+      "components": [
+        {
+          "componentType": 8,
+          "position": {
+            "x": -32.0,
+            "y": 50.0,
+            "z": 2.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "z": 0.25
+          },
+          "mass": 0.25,
+          "acceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "velocity": {
+            "x": -0.0,
+            "y": 0.0,
+            "z": -0.0
+          },
+          "shape": {
+            "type": "sphere",
+            "radius": 0.25
+          }
+        },
+        {
+          "componentType": 3,
+          "meshName": "Sphere_320_faces_xyz_n_GARBAGE_uv.ply",
+          "isWireframe": false,
+          "isVisible": true,
+          "color": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 1.0
+          },
+          "textures": [
+            {
+              "name": "debug_grid.bmp",
+              "strength": 1.0
+            }
+          ],
+          "specular": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "shinyness": 100.0
+          },
+          "useVertexColor": false,
+          "dontLight": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "entityType": 0,
+      "componentBits": 7,
+      "components": [
+        {
+          "componentType": 8,
+          "position": {
+            "x": -32.0,
+            "y": 50.0,
+            "z": 2.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "z": 0.25
+          },
+          "mass": 0.25,
+          "acceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "velocity": {
+            "x": -0.0,
+            "y": 0.0,
+            "z": -0.0
+          },
+          "shape": {
+            "type": "sphere",
+            "radius": 0.25
+          }
+        },
+        {
+          "componentType": 3,
+          "meshName": "Sphere_320_faces_xyz_n_GARBAGE_uv.ply",
+          "isWireframe": false,
+          "isVisible": true,
+          "color": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 1.0
+          },
+          "textures": [
+            {
+              "name": "debug_grid.bmp",
+              "strength": 1.0
+            }
+          ],
+          "specular": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "shinyness": 100.0
+          },
+          "useVertexColor": false,
+          "dontLight": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "entityType": 0,
+      "componentBits": 7,
+      "components": [
+        {
+          "componentType": 8,
+          "position": {
+            "x": -32.0,
+            "y": 50.0,
+            "z": 2.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "z": 0.25
+          },
+          "mass": 0.25,
+          "acceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "velocity": {
+            "x": -0.0,
+            "y": 0.0,
+            "z": -0.0
+          },
+          "shape": {
+            "type": "sphere",
+            "radius": 0.25
+          }
+        },
+        {
+          "componentType": 3,
+          "meshName": "Sphere_320_faces_xyz_n_GARBAGE_uv.ply",
+          "isWireframe": false,
+          "isVisible": true,
+          "color": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 1.0
+          },
+          "textures": [
+            {
+              "name": "debug_grid.bmp",
+              "strength": 1.0
+            }
+          ],
+          "specular": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "shinyness": 100.0
+          },
+          "useVertexColor": false,
+          "dontLight": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "entityType": 0,
+      "componentBits": 7,
+      "components": [
+        {
+          "componentType": 8,
+          "position": {
+            "x": -100.0,
+            "y": 50.0,
+            "z": 2.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "z": 0.25
+          },
+          "mass": 0.25,
+          "acceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "velocity": {
+            "x": -0.0,
+            "y": 0.0,
+            "z": -0.0
+          },
+          "shape": {
+            "type": "sphere",
+            "radius": 0.25
+          }
+        },
+        {
+          "componentType": 3,
+          "meshName": "Sphere_320_faces_xyz_n_GARBAGE_uv.ply",
+          "isWireframe": false,
+          "isVisible": true,
+          "color": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 1.0
+          },
+          "textures": [
+            {
+              "name": "debug_grid.bmp",
+              "strength": 1.0
+            }
+          ],
+          "specular": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "shinyness": 100.0
+          },
+          "useVertexColor": false,
+          "dontLight": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "entityType": 0,
+      "componentBits": 7,
+      "components": [
+        {
+          "componentType": 8,
+          "position": {
+            "x": 132.0,
+            "y": 50.0,
+            "z": 2.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "z": 0.25
+          },
+          "mass": 0.25,
+          "acceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "velocity": {
+            "x": -0.0,
+            "y": 0.0,
+            "z": -0.0
+          },
+          "shape": {
+            "type": "sphere",
+            "radius": 0.25
+          }
+        },
+        {
+          "componentType": 3,
+          "meshName": "Sphere_320_faces_xyz_n_GARBAGE_uv.ply",
+          "isWireframe": false,
+          "isVisible": true,
+          "color": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 1.0
+          },
+          "textures": [
+            {
+              "name": "debug_grid.bmp",
+              "strength": 1.0
+            }
+          ],
+          "specular": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "shinyness": 100.0
+          },
+          "useVertexColor": false,
+          "dontLight": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "entityType": 0,
+      "componentBits": 7,
+      "components": [
+        {
+          "componentType": 8,
+          "position": {
+            "x": 60.0,
+            "y": 50.0,
+            "z": 2.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "z": 0.25
+          },
+          "mass": 3.0,
+          "acceleration": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "velocity": {
+            "x": -0.0,
+            "y": 0.0,
+            "z": -0.0
+          },
+          "shape": {
+            "type": "sphere",
+            "radius": 3.0
+          }
+        },
+        {
+          "componentType": 3,
+          "meshName": "Sphere_320_faces_xyz_n_GARBAGE_uv.ply",
+          "isWireframe": false,
+          "isVisible": true,
+          "color": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 1.0
+          },
+          "textures": [
+            {
+              "name": "debug_grid.bmp",
+              "strength": 1.0
+            }
+          ],
+          "specular": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "shinyness": 100.0
+          },
+          "useVertexColor": false,
+          "dontLight": true
+        }
+      ]
+    }
+  ],
+  "sounds": []
+}

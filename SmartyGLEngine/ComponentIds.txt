@@ -1,0 +1,8 @@
+This file lists all known components and thier data.
+
+1 = TransformComponent - position, rotation, scale
+2 = EulerMovementComponent
+3 = RenderMeshComponent
+4 = DebugRenderComponent
+5 = ColliderComponent
+6 = 3dSoundComponent
